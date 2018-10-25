@@ -17,15 +17,26 @@
   <div class="container">
     <!-- Row avec le header-->
     <div class="row justify-content-center">
-      <header class="col-10 border text-center rounded">
-        <h1>THE WILD BLOG</h1>
+      <header class="col-10 border text-center rounded bg-light">
+        <h1>THE WILD <br /> BLOG</h1>
+        <!-- menu burger-->
+        <div class="dropdown d-block d-sm-none">
+          <a class="float-left rounded" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="https://mariogl.com/wp-content/uploads/2017/07/icono-hamburguesa.png" alt="menu" width="50px" height="30px">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a class="dropdown-item" href="">Moment 1</a>
+            <a class="dropdown-item" href="">Moment 2</a>
+            <a class="dropdown-item" href="">Moment 3</a>
+          </div>
+        </div>
       </header>
     </div>
     <!--Row avec le main-->
     <main class="row">
       <!--Barre de navigation-->
       <nav class="col-2">
-        <div class="list-group position-fixed">
+        <div class="list-group position-fixed d-none d-sm-block">
           <a href="#moment1" class="list-group-item list-group-item-action">Moment 1</a>
           <a href="#moment2" class="list-group-item list-group-item-action">Moment 2</a>
           <a href="#moment3" class="list-group-item list-group-item-action">Moment 3</a>
