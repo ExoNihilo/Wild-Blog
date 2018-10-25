@@ -1,0 +1,10 @@
+@media (min-width: 577px) {
+ .lien-wcs {
+  position: fixed; 
+  left: 85%;
+  top: 15%; 
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  } 
+}
