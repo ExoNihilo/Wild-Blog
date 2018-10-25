@@ -9,7 +9,12 @@
   } 
 }
 
+.text-logo {
+	color: black;
+}
+
 @media (max-width: 576px) {
+
 	header{
 		position: fixed !important;
 		z-index: 2;
