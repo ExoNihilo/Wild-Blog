@@ -2,6 +2,27 @@
 	color: black;
 }
 
+body{
+	background-color: orange;
+}
+
+.container{
+	background-color: white;
+}
+
+header{
+	border-radius: 10px;
+	background-color: orange;
+}
+
+.modal-header{
+	background-color: white;
+}
+
+h1{
+	color: white;
+}
+
 /*smartphone*/
 @media (max-width: 576px) {
 
@@ -27,7 +48,8 @@
   top: 15%; 
   display: flex;
   flex-direction: column;
-  width: 25%
-  } 
+  width: 25%;
+  }
 }
+
 
