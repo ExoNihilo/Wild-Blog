@@ -1,18 +1,8 @@
-@media (min-width: 577px) {
- .lien-wcs {
-  position: fixed; 
-  left: 85%;
-  top: 15%; 
-  display: flex;
-  flex-direction: column;
-  width: 25%
-  } 
-}
-
 .text-logo {
 	color: black;
 }
 
+/*smartphone*/
 @media (max-width: 576px) {
 
 	header{
@@ -28,3 +18,16 @@
 		z-index: 1;
 	}
 }
+
+/*tablette*/
+@media (min-width: 992px) {
+ .lien-wcs {
+  position: fixed; 
+  left: 75%;
+  top: 15%; 
+  display: flex;
+  flex-direction: column;
+  width: 25%
+  } 
+}
+
