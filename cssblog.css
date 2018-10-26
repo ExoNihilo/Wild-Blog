@@ -19,8 +19,11 @@
 		position: fixed !important;
 		z-index: 2;
 	}
-	.billet{
+	.intro{
 		margin-top: 140px !important;
+		z-index: 1;
+	}
+	.billet{
 		z-index: 1;
 	}
 }
