@@ -19,7 +19,8 @@
 		position: fixed !important;
 		z-index: 2;
 	}
-	.intro{
+
+	.introduction{
 		margin-top: 140px !important;
 		z-index: 1;
 	}
