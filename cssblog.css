@@ -3,7 +3,7 @@
 }
 
 body{
-	background-color: orange;
+	background-color: #f3a61f;
 }
 
 .container{
@@ -11,8 +11,12 @@ body{
 }
 
 header{
-	border-radius: 10px;
-	background-color: orange;
+	
+	background-image: url("https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png");
+	background-repeat: no-repeat;
+	background-position: center;
+
+
 }
 
 .modal-header{
@@ -21,9 +25,20 @@ header{
 
 h1{
 	color: white;
+	margin-bottom: 7%;
+	margin-top: 7%;
+	text-shadow: 2px 2px black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 55px;
+
 }
 
-/*smartphone*/
+ .introduction {
+  	margin-top: 7%;
+  }
+
+
+/*smartphone + tablette portrait*/
 @media (max-width: 576px) {
 
 	header{
@@ -32,24 +47,44 @@ h1{
 	}
 
 	.introduction{
-		margin-top: 140px !important;
+		margin-top: 65% !important;
 		z-index: 1;
 	}
 	.billet{
 		z-index: 1;
 	}
+
+	
 }
 
-/*tablette*/
+/*tablette paysage + 720p*/
 @media (min-width: 992px) {
  .lien-wcs {
   position: fixed; 
-  left: 75%;
-  top: 15%; 
+  left: 73%;
+  top: 20%; 
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
   }
+}
+
+
+
+/*1080p*/
+
+@media (min-width: 1900px) {
+	.lien-wcs {
+  position: fixed; 
+  left: 71%;
+  top: 20%; 
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  } 
+  .billet{
+		width: 115%;
+	}
 }
 
 
