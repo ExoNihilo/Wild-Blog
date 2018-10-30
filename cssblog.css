@@ -37,6 +37,11 @@ h1{
   	margin-top: 7%;
   }
 
+.btn-primary {
+	color: white;
+	background-color: orange;
+}
+
 
 /*smartphone + tablette portrait*/
 @media (max-width: 576px) {
@@ -79,7 +84,10 @@ h1{
   }
 }
 
-
+.btn-primary:hover {
+	color: white;
+	background-color: #5ac3af;
+}
 
 /*1080p*/
 
@@ -95,8 +103,14 @@ h1{
   .billet{
 		width: 115%;
 	}
+	.btn-primary:hover {
+	color: white;
+	background-color: #5ac3af;
+	}
 }
+
 a[class*="list-group-item-action"]{
 	background-color: #5ac3af;
 	color: white;
 }
+
