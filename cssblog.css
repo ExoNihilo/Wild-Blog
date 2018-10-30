@@ -96,5 +96,7 @@ h1{
 		width: 115%;
 	}
 }
-
-
+a[class*="list-group-item-action"]{
+	background-color: #5ac3af;
+	color: white;
+}
