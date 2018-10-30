@@ -4,6 +4,7 @@
 
 body{
 	background-color: #f3a61f;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .container{
@@ -42,6 +43,9 @@ h1{
 	background-color: orange;
 }
 
+.billet {
+	border-radius: 30px;
+}
 
 /*smartphone + tablette portrait*/
 @media (max-width: 576px) {
@@ -100,10 +104,10 @@ h1{
   flex-direction: column;
   width: 20%;
   } 
-  .billet{
+.billet{
 		width: 115%;
 	}
-	.btn-primary:hover {
+.btn-primary:hover {
 	color: white;
 	background-color: #5ac3af;
 	}
@@ -112,5 +116,6 @@ h1{
 a[class*="list-group-item-action"]{
 	background-color: #5ac3af;
 	color: white;
+	font-weight: bold;
 }
 
