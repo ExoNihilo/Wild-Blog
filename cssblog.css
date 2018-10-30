@@ -14,11 +14,9 @@ body{
 
 header{
 	
-	background-image: url("https://wildcodeschool.fr/wp-content/uploads/2017/01/logo_orange_pastille.png");
+	background-image: url("/home/exonihilo/Documents/Wild_Blog/photos/logo_orange.png");
 	background-repeat: no-repeat;
 	background-position: center;
-
-
 }
 
 .modal-header{
@@ -26,9 +24,9 @@ header{
 }
 
 h1{
-	color: white;
-	margin-bottom: 7%;
-	margin-top: 7%;
+	color: #5ac3af;
+	margin-bottom: 10%;
+	margin-top: 10%;
 	text-shadow: 2px 2px black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 55px;
@@ -52,10 +50,11 @@ h1{
 	header{
 		position: fixed !important;
 		z-index: 2;
+		background-color: white;
 	}
 
 	.introduction{
-		margin-top: 30% !important;
+		margin-top: 33% !important;
 		z-index: 1;
 	}
 	.billet{
@@ -63,9 +62,9 @@ h1{
 	}
 
 	h1{
-	color: white;
-	margin-bottom: 7%;
-	margin-top: 7%;
+	color: #5ac3af;
+	margin-bottom: 19%;
+	margin-top: 19%;
 	text-shadow: 2px 2px black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30px;
@@ -80,7 +79,7 @@ h1{
   .lien-wcs {
   position: fixed; 
   left: 73%;
-  top: 20%; 
+  top: 40%; 
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -107,7 +106,7 @@ h1{
 	.lien-wcs {
    position: fixed; 
    left: 71%;
-   top: 20%; 
+   top: 27%; 
    display: flex;
    flex-direction: column;
    width: 20%;
