@@ -45,9 +45,6 @@ h1{
 	border: none;
 }
 
-.billet {
-	border-radius: 30px;
-}
 
 /*smartphone + tablette portrait*/
 @media (max-width: 576px) {
