@@ -111,10 +111,12 @@ h1{
    flex-direction: column;
    width: 20%;
   } 
+
   .billet{
 		width: 119%;
+
 	}
-	.btn-primary:hover {
+.btn-primary:hover {
 	color: white;
 	background-color: #5ac3af;
 	}
