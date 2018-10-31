@@ -12,12 +12,6 @@ body{
 	background-color: white;
 }
 
-header{
-	
-	background-image: url("photos/logo_orange.png");
-	background-repeat: no-repeat;
-	background-position: center;
-}
 
 .modal-header{
 	background-color: white;
@@ -25,12 +19,9 @@ header{
 
 h1{
 	color: black;
-	margin-bottom: 10%;
-	margin-top: 15%;
 	text-shadow: 2px 2px black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 55px;
-
 }
 
  .introduction {
@@ -47,14 +38,15 @@ h1{
 /*smartphone + tablette portrait*/
 @media (max-width: 576px) {
 
-	header{
-		position: fixed !important;
+	.header-content{
+		width: 100%;
+		position: fixed;
 		z-index: 2;
 		background-color: white;
 	}
 
 	.introduction{
-		margin-top: 33% !important;
+		margin-top: 33%;
 		z-index: 1;
 	}
 	.billet{
@@ -63,8 +55,6 @@ h1{
 
 	h1{
 	color: #5ac3af;
-	margin-bottom: 19%;
-	margin-top: 19%;
 	text-shadow: 2px 2px black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30px;
