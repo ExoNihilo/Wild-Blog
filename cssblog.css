@@ -54,7 +54,7 @@ h1{
 	}
 
 	h1{
-	color: #5ac3af;
+	color: black;
 	text-shadow: 2px 2px black;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 30px;
@@ -69,7 +69,7 @@ h1{
   .lien-wcs {
   position: fixed; 
   left: 73%;
-  top: 40%; 
+  top: 24%; 
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -96,7 +96,7 @@ h1{
 	.lien-wcs {
    position: fixed; 
    left: 71%;
-   top: 27%; 
+   top: 17%; 
    display: flex;
    flex-direction: column;
    width: 20%;
